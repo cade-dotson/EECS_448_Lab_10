@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Create Post</title>
+    <script type="text/javascript" src="PostCheck.js"></script>
+  </head>
+  <body>
+    <form onsubmit="return postCheck()" action="CreatePosts.php" method="post">
+      <h3>Create Post:</h3>
+      <textarea name="post" id="postid" cols="40" rows="5"></textarea>
+      <br><br>
+      <h4>Username:</h4><input type="text" id="username" name="name">
+      <br><br>
+      <input type="submit">
+  </body>
+</html>
